@@ -1,6 +1,6 @@
 Hi, this project represents a web agreggator with custom cms aimed to rent yachts, motorboats, passenger ships.
 
-The project itself includes two parts - client app and server app. Both of them are set to work on localhost.
+The project itself includes two parts - client app and server app plus additional micro services. Both of them are set to work on localhost.
 
 !!!NOTICE!!!
 1. cms - admin panel is supposed to work on port "5174" so do not expect cms to work on the other ports,
@@ -51,3 +51,14 @@ How you start it:
 1. Open project folder in your code editor.
 2. Open terminal in project.
 3. type: "npm run dev" or "npm run build" - to change the port of the app look for vite.config.ts.
+
+3. Additional microservices:
+
+1. yacht-backup
+The service is designed to work from docker container, it is aimed to create backup of existing database every 24 hours.
+
+2. yacht-puppeteer
+Due to for builder we took vite, and we had a lot of dynamic, created by user content, we needed a solution to prerender existing pages and content to make a good SEO optimisation. Puppeteer was the best solution to prevent SSR problems with indexation. The service is build to work from docker container as well.
+
+3. yacht-sitemap
+There was the same problem with dynamic content. And the only acceptable solution was - create a function which could once in a while scan the whole database table with existing pages and return back a list of them as sitemap.xml. This service also works from docker container.
