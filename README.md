@@ -52,7 +52,8 @@ How you start it:
 2. Open terminal in project.
 3. type: "npm run dev" or "npm run build" - to change the port of the app look for vite.config.ts.
 
-3. Additional microservices:
+
+Additional microservices:
 
 1. yacht-backup:
 The service is designed to work from docker container, it is aimed to create backup of existing database every 24 hours.
