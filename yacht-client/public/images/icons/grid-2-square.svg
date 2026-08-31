@@ -1,0 +1,11 @@
+<svg width="800px" height="800px" viewBox="0 0 7.2 7.2" xmlns="http://www.w3.org/2000/svg">
+	<g fill="none" stroke="#000000" stroke-width="0.4" stroke-linejoin="miter">
+		<!-- первая строка -->
+		<rect x="0.2" y="0.2" width="3" height="3"/>
+		<rect x="3.8" y="0.2" width="3" height="3"/>
+
+		<!-- вторая строка -->
+		<rect x="0.2" y="3.8" width="3" height="3"/>
+		<rect x="3.8" y="3.8" width="3" height="3"/>
+	</g>
+</svg>

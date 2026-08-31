@@ -1,0 +1,7 @@
+{
+"clusters":{},
+"indexes":{"products":{
+"type":"rt",
+"path":"products"
+}}
+}

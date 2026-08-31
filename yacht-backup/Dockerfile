@@ -1,0 +1,51 @@
+FROM python:3.11-slim
+
+ARG PROJECT_NAME=yacht_backup
+ARG GROUP_ID=5000
+ARG USER_ID=5000
+
+ENV VIRTUAL_ENV=/srv/${PROJECT_NAME}/.venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+ENV PYTHONPATH=/srv/${PROJECT_NAME}
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Создание пользователя и директорий
+RUN groupadd --gid ${GROUP_ID} ${PROJECT_NAME} && \
+    useradd --home-dir /home/${PROJECT_NAME} --create-home --uid ${USER_ID} \
+        --gid ${GROUP_ID} --shell /bin/sh --skel /dev/null ${PROJECT_NAME} && \
+    mkdir -p /srv/${PROJECT_NAME} && \
+    chown -R ${PROJECT_NAME}:${PROJECT_NAME} /srv/${PROJECT_NAME}
+
+WORKDIR /srv/${PROJECT_NAME}
+
+# Копируем зависимости
+COPY requirements.txt /srv/${PROJECT_NAME}/
+
+# Установка системных пакетов и Python-окружения
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git python3-venv python3-pip build-essential postgresql-client gzip && \
+    rm -rf /var/lib/apt/lists/*
+
+# Создание виртуального окружения и установка зависимостей
+RUN python3 -m venv $VIRTUAL_ENV && \
+    $VIRTUAL_ENV/bin/pip install --upgrade pip && \
+    $VIRTUAL_ENV/bin/pip install --no-cache-dir -r requirements.txt
+
+# Создаём файлы для скрипта и права
+RUN mkdir -p /srv/yacht_backup && \
+    touch /srv/yacht_backup/counter.txt && chmod 666 /srv/yacht_backup/counter.txt
+
+# Копируем проект и даём права
+COPY . /srv/yacht_backup
+RUN chown -R ${PROJECT_NAME}:${PROJECT_NAME} /srv/yacht_backup
+
+RUN chmod -R 777 /srv/yacht_backup
+
+# Переключаемся на пользователя
+USER root
+
+WORKDIR /srv/yacht_backup
+
+# CMD для запуска cron на переднем плане
+CMD ["python", "main.py"]

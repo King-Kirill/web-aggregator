@@ -1,0 +1,62 @@
+.inner-vista-container{
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+}
+
+iframe{
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.inner-vista-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  bottom: 10px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.inner-vista-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.inner-vista-container:hover .inner-vista-container-on-delete-from-page{
+  left: 10px;
+}
+
+.inner-vista-on-update-btn{
+  position: absolute;
+  bottom: 10px;
+  right: -50px;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.inner-vista-on-update-btn>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.inner-vista-on-update-btn>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.inner-vista-container:hover .inner-vista-on-update-btn{
+  right: 10px;
+}

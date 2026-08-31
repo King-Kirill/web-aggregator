@@ -1,0 +1,152 @@
+.reviewsInput-gold-star{
+    stroke: #808088;
+    fill: transparent;
+    height: 16px;
+    width: 16px;
+}
+
+.reviewsInput-gold-star-active{
+    stroke: gold;
+    fill: gold;
+    height: 16px;
+    width: 16px;
+}
+
+.reviewsInput-container{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ReviewsInput-noreviews-span{
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviewsInput-first-label{
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.reviewsInput-red-star{
+    color: red;
+}
+
+.reviewsInput-rating-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.reviewsInput-rating-container>span{
+  font-family: GraphikLCG-thin;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviewsInput-rating-container-stars{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.reviewsInput-container-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.reviewsInput-container-main>span{
+  font-family: GraphikLCG-thin;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviewsInput-container-name>span{
+  font-family: GraphikLCG-thin;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviewsInput-container-name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.reviewsInput-container-email>span{
+  font-family: GraphikLCG-thin;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviewsInput-container-email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.reviewsInput-container-main>textarea{
+    width: 100%;
+    min-height: 200px;
+    background-color: transparent;
+    border: 2px solid #808080;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFFB3;
+    padding: 8px;
+}
+
+.reviewsInput-container-name>input{
+    width: 100%;
+    min-height: 40px;
+    background-color: transparent;
+    border: 2px solid #808080;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFFB3;
+}
+
+.reviewsInput-container-email>input{
+    width: 100%;
+    min-height: 40px;
+    background-color: transparent;
+    border: 2px solid #808080;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFFB3;
+}
+
+.reviewsInput-container-send-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    background: #07c4cf;
+    font-family: GraphikLCG-thin;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #FFFFFF;
+}

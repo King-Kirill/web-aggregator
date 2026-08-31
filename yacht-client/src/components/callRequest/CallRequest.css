@@ -1,0 +1,506 @@
+.requset-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 999999999999999999;
+    background: #FFFFFF;
+    max-width: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    /* background-image: var(--request-bckg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.input-like {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #fff;
+  height: 50px;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие фона за инпутом */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* мягкая тень */
+  
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; /* ниже инпута */
+  left: 0;
+  width: 100%;
+  max-height: 150px; /* ограничиваем высоту */
+  overflow-y: auto;  /* появляется скролл, если элементов больше */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  z-index: 100;
+  margin-top: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.title-request-auth{
+  font-family: 'Rubik', sans-serif;
+  width: auto;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.requset-container-auth{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 999999999999999999;
+    background: #FFFFFF;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+}
+
+.requset-container-auth.active{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: all;
+}
+
+.requset-container.active{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: all;
+}
+
+.requset-container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.requset-container-text{
+    display: flex;
+    max-width: 340px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title-request{
+  font-family: 'Rubik', sans-serif;
+  width: auto;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.requset-container-text>p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.requset-container-text>p>span{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.requset-container-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%; 
+    gap: 10px;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    border-radius: 18px;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000 !important;
+    font-weight: bold;
+    border: 1px solid #e2e2e2;
+}
+
+.requset-container-inputs-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    border-radius: 18px;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #e2e2e2;
+}
+
+.input,
+.input-inner {
+  width: 100%;
+  height: 50px;
+  border-radius: 18px;
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000; /* цвет текста белый или светлый */
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* светлая прозрачная граница */
+  
+  background: rgba(255, 255, 255, 0.1); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие фона за инпутом */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* мягкая тень */
+  
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus,
+.input-inner:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2); /* чуть ярче при фокусе */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.privacy-policy-confirm{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 340px;
+    gap: 10px;
+    padding-right: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.privacy-policy-confirm>input{
+    justify-self: flex-start;
+}
+
+.callrequest-send-btn{
+    width: 100%;
+    height: 40px;
+    background: var(--gold-color-bright);
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.callrequest-send-btn:hover {
+    background: var(--hover-btn);
+    transform: translateY(-5px);
+}
+.ppl-amount{
+    text-align: center;
+}
+
+.mainPage-name-wrapper-request{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.input-like{
+    width: 100% !important;
+}
+
+.custom-select{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.mainPage-name-wrapper-error-request {
+    position: absolute;
+    z-index: 100;
+    bottom: -30px;
+    transform: translateY(30px);
+    pointer-events: none;
+    height: 40px;
+    background: #FFFFFF;
+    width: 180px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.mainPage-name-wrapper-error-request>span{
+    font-family: GraphikLCG-thin;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.svg-back{
+    fill: #FFA920;
+}
+
+.svg-sign{
+    fill: #FFFFFF;
+}
+
+.svg-dot{
+    fill: #FFFFFF;
+}
+
+.mainPage-name-wrapper-error-request::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ffffff;
+}
+
+.input-auth{
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 25px;
+    border: 1px solid #808080;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.close-btn-request-auth{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #808080;
+    transition: transform 0.2s ease;
+}
+
+.close-btn-request-auth:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.mainPage-name-wrapper-error-request::after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+.mainPage-name-wrapper-error-request>svg{
+    width: 30px;
+    height: 30px;
+}
+
+.mainPage-name-wrapper-error-request.active{
+    opacity: 1;
+    transform: translateY(20px);
+}
+
+.modal-overlay-request {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  z-index: 99999999999999999;
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.close-btn-request{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #808080;
+    transition: transform 0.2s ease;
+}
+
+.close-btn-request:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+iframe[src*="bframe"] {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 999999999999999999999 !important;
+}
+
+.input-like::placeholder {
+    color: #000000 !important;
+    opacity: 1 !important; /* чтобы цвет был полностью белым */
+}
+
+.input::placeholder {
+    color: #000000 !important;
+    opacity: 1 !important; /* чтобы цвет был полностью белым */
+}
+
+.privacy-policy-link{
+    color: #000000;
+    font-size: 15px;
+}
+
+.info-span-request{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: GraphikLCG-thin;
+    font-weight: bold;
+    align-self: center;
+}
+
+@media(max-width: 450px)
+{
+    .requset-container{
+        max-width: 280px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .requset-container-inputs-inner{
+        gap: 10px;
+    }
+
+    .input-inner{
+        width: 130px;
+    }
+
+    .requset-container-text{
+        width: 260px;
+    }
+
+    .privacy-policy-confirm{
+        max-width: 260px;
+    }
+
+    .requset-container-inputs{
+        max-width: 260px;
+    }
+
+    .captcha {
+    transform: scale(0.85); /* можешь поставить 0.7, 0.6 и т.д. */
+    transform-origin: 0 0;
+    }
+
+
+}

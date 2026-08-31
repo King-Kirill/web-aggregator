@@ -1,0 +1,23 @@
+.space-on-delete-btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.space-on-delete-btn>svg{
+    width: 40px;
+    height: 40px;
+}
+
+.space-on-delete-btn>svg path{
+    fill: red;
+    stroke: red;
+}
+
+.space-div{
+    position: relative;
+}

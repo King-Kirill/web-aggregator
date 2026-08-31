@@ -1,0 +1,4 @@
+boto3
+aiobotocore
+python-dotenv
+psycopg2-binary>=2.9

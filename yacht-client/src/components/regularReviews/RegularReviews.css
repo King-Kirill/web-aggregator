@@ -1,0 +1,196 @@
+.regular-reviews-container{
+  width: 100%;
+  justify-self: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.regular-container-title{
+  margin-top: 0px;
+  font-family: GraphikLCG-thin;
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.regular-reviews-slider .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF;
+  opacity: 0.8;
+}
+
+.regular-reviews-slider .swiper-pagination-bullet-active {
+  background: #e47431;
+  opacity: 1;
+}
+
+.regular-reviews-slider{
+  width: 100%;
+  height: auto;
+}
+
+.regular-reviews-slide{
+  min-height: 350px;
+}
+
+.regular-reviews-review-item{
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.regular-reviews-review-item-header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #cb9500;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.regular-reviews-review-item-header-tab{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.regular-reviews-review-item-header-tab-inner{
+  width: auto;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.regular-reviews-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.regular-reviews-star-rating{
+  width: auto;
+  height: auto;
+}
+
+.regular-reviews-star-full {
+  font-style: normal;
+  color: #f5ad59;
+  font-size: 15px;
+  margin-right: 2px;
+  display: inline-block;
+}
+
+.regular-reviews-content span{
+  font-family: GraphikLCG-thin;
+  font-weight: bolder;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.regular-reviews-review-text{
+  width: 90%;
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.regular-reviews-review-item{
+  background: black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.regular-reviews-review-text p{
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.regular-no-reviews-span{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    font-family: GraphikLCG-thin;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.regular-reviews-container-container{
+  margin-top: 0px;
+  font-family: GraphikLCG-thin;
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.regular-reviews-container-on-delete{
+  position: absolute;
+  bottom: 10px;
+  left: -100px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+  transition: left 0.3s;
+}
+
+.regular-reviews-container-on-delete>svg{
+  stroke: red;
+  fill: red;
+  height: 50px;
+  width: 50px;
+}
+
+.regular-reviews-review-item:hover .regular-reviews-container-on-delete{
+  left: 10px;
+}
+
+.regular-reviews-container-on-change{
+  position: absolute;
+  bottom: 10px;
+  right: -100px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.regular-reviews-container-on-change>svg{
+  height: 40px;
+  width: 40px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.regular-reviews-container-on-change>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.regular-reviews-review-item:hover .regular-reviews-container-on-change{
+  right: 10px;
+}

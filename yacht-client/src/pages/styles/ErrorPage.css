@@ -1,0 +1,226 @@
+.errorPage-container{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background: var(--semi-dark-color);
+}
+
+.errorPage-container-content{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+.errorPage-container-content-notfound{
+    width: auto;
+    max-height: 450px;
+    position: relative;
+}
+
+.errorPage-container-content-code{
+    font-family: GraphikLCG-thin;
+    font-size: 400px;
+    font-weight: bold;
+    line-height: 400px;
+    color: var(--gray-text);
+}
+
+.errorPage-container-content-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: GraphikLCG-thin;
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--gold-color-bright);
+    text-transform: uppercase;
+}
+
+.errorPage-container-content-text-desc{
+    font-family: GraphikLCG-thin;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.errorPage-container-content-text-desc-2{
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    font-weight: bold;
+    color: #808080;
+    text-transform: uppercase;
+}
+
+.errorPage-container-input{
+    width: 400px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--light-border-color);
+}
+
+.errorPage-container-input>input{
+    width: 340px;
+    height: 40px;
+    padding-left: 10px;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    background: transparent;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.errorPage-search-btn{
+    width: 25px;
+    height: 35px;
+    margin-left: 3px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorPage-search-btn>svg{
+    width: 24px;
+    height: 20px;
+}
+
+.errorPage-search-btn>svg path{
+    stroke: #000000;
+    fill: #000000;
+    width: 24px;
+    height: 20px;
+}
+
+.errorPage-container-clear-button{
+    width: 30px;
+    height: 45px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorPage-container-clear-button>svg{
+    width: 25px;
+    height: 25px;
+}
+
+.errorPage-container-clear-button>svg path{
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+.errorPage-container-line{
+    width: 2px;
+    height: 25px;
+    background: #FFFFFF;
+}
+
+.open-templates-404{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--gold-color-bright);
+    font-family: GraphikLCG-thin;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: height 0.3s ease, width 0.3s ease, background 0.3s ease;
+}
+
+.open-templates-404:hover{
+    height: 40px;
+    width: 155px;
+    background: var(--hover-btn);
+}
+
+.errorPage-container-content-code.thanks{
+    font-size: 200px;
+}
+
+.errorPage-container-content-text.thanks{
+    top: 55%;
+    left: 50%;
+}
+
+@media(max-width: 800px){
+    .errorPage-container-content-code.thanks{
+        font-size: 150px;
+    }
+
+    .errorPage-container-content-text.thanks{
+        width: 300px;
+    }
+}
+
+@media(max-width: 760px){
+    .errorPage-container-input{
+    width: 90%;
+    }
+
+    .errorPage-container-input>input{
+    width: 80%;
+    }
+
+    .errorPage-container-content-code{
+    font-family: GraphikLCG-thin;
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 250px;
+    color: var(--gray-text);
+    }
+
+    .errorPage-container-content-text-desc{
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    }
+
+    .errorPage-container-content-text-desc-2{
+    width: 90%;
+    font-size: 15px;
+    text-align: center;
+    }
+
+    .errorPage-container-content-text{
+    width: auto;
+    text-align: center;
+    font-size: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    .errorPage-container-content-code.thanks{
+        font-size: 100px;
+    }
+}
+
+@media(max-width: 450px){
+    .mainPage-order-btn.mainPage-order-btn.thanks{
+        width: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    .errorPage-container-content-code.thanks{
+        font-size: 80px;
+    }
+}

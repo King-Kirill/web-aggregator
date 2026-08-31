@@ -1,0 +1,194 @@
+.SimmilarProducts-reviews-slider .swiper-pagination {
+  position: relative;
+  text-align: center;
+  margin-top: 30px !important;
+}
+
+.SimmilarProducts-reviews-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #000000;
+}
+
+.item-4.simmilar{
+  height: 100%;
+}
+
+.swiper-slide .SimmilarProducts-reviews-slide{
+  height: 100%;
+}
+
+.SimmilarProducts-reviews-slider .swiper-pagination-bullet-active {
+  background: #808080;
+  opacity: 1;
+}
+
+.SimmilarProducts-container{
+    position: relative;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.SimmilarProducts-container{
+    width: 100%;
+}
+
+.SimmilarProducts-right-arrow{
+    position: absolute;
+    top: 40%;
+    right: -10%;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: GraphikLCG-thin;
+    font-weight: bolder;
+    transform: translateY(-40%);
+    transition: right 0.5s;
+    z-index: 1000;
+    background: transparent;
+}
+
+.SimmilarProducts-left-arrow{
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: GraphikLCG-thin;
+    font-weight: bolder;
+    transform: translateY(-40%);
+    transition: left 0.5s;
+    z-index: 1000;
+    background: transparent;
+}
+
+.SimmilarProducts-container:hover .SimmilarProducts-left-arrow{
+    left: 10px;
+}
+
+.SimmilarProducts-container:hover .SimmilarProducts-right-arrow{
+    right: 10px;
+}
+
+.item-tags{
+  display: flex;
+  flex-wrap: wrap; /* разрешаем перенос элементов */
+}
+
+.SimmilarProducts-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  top: 10px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.SimmilarProducts-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.SimmilarProducts-container:hover .SimmilarProducts-container-on-delete-from-page{
+  left: 10px;
+}
+
+.SimmilarProducts-on-update-btn{
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.SimmilarProducts-on-update-btn>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.SimmilarProducts-on-update-btn>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.SimmilarProducts-container:hover .SimmilarProducts-on-update-btn{
+  right: 10px;
+}
+
+.failed-to-find-simmilar-products{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: GraphikLCG-thin;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.SimmilarProducts-reviews-slider .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.SimmilarProducts-reviews-slide {
+  height: auto;
+  display: flex;
+}
+
+.item-4 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.item-4.simmilar{
+  background: transparent !important;
+}
+
+.item-title.simmilar{
+  font-size: 20px;
+  margin-left: -10px;
+}
+
+.item-ref-btn.simmilar{
+  border-radius: 10px;
+}
+
+@media (max-width: 1249px) {
+  .SimmilarProducts-right-arrow{
+    font-size: 20px;
+}
+
+.SimmilarProducts-left-arrow{
+    font-size: 20px;
+}
+
+.SimmilarProducts-left-arrow{
+  left: 10px;
+}
+
+.SimmilarProducts-right-arrow{
+  right: 10px;
+}
+}
+
+@media (max-width: 500px){
+  .orderBtn-small-4{
+    width: 65px;
+  }
+}

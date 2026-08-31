@@ -1,0 +1,179 @@
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: var(--semi-dark-color-2);
+    margin-top: 0;
+}
+
+.footer-container
+{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 17px;
+    align-self: center;
+}
+
+.footer-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-buttons>button{
+    background: transparent;
+    width: auto;
+    max-width: 300px;
+    text-align: left;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFF99;
+    transition: color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-btn-link{
+  background: transparent;
+    width: auto;
+    max-width: 300px;
+    text-align: left;
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFF99;
+    transition: color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-btn-link:hover{
+  color: #FFFFFF;
+}
+
+.footer-on-delete-btn{
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+  transition: left 0.3s;
+}
+
+.footer-on-delete-btn>svg{
+  stroke: red;
+  fill: red;
+  height: 20px;
+  width: 20px;
+}
+
+.footer-buttons>button:hover .footer-on-delete-btn{
+  left: 5px;
+}
+
+.footer-on-update-btn{
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  background: transparent;
+  width: 18px;
+  height: 18px;
+  z-index: 100;
+  transition: right 0.3s;
+}
+
+.footer-on-update-btn>svg{
+  height: 18px;
+  width: 18px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.footer-on-update-btn>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.footer-buttons>button:hover .footer-on-update-btn{
+  right: 5px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF99;
+}
+
+.footer-main-content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.footer-logo{
+    width: 320px;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-right{
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFFCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-IM{
+    font-family: GraphikLCG-thin;
+    font-size: 15px;
+    color: #FFFFFFCC;
+    font-weight: bolder;
+}
+
+.footer-buttons>button:hover{
+   color: #FFFFFF;
+}
+
+.footer-add-btn{
+    max-width: 200px;
+    height: 30px;
+    border: 1px dashed #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-add-btn>svg{
+    width: 20px;
+    height: 20px;
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+.footer-btn-link:hover .footer-on-update-btn{
+  right: 5px;
+}
+
+.footer-btn-link:hover .footer-on-delete-btn{
+  left: 5px;
+}
+
+@media(max-width: 1250px)
+{
+    .footer-container{
+        width: 95%;
+        align-self: center;
+    }
+}

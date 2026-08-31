@@ -1,0 +1,812 @@
+[Thu Nov  6 20:33:39.806 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:33:39.811 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:33:39.817 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:33:39.817 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:33:39.825 2025] [26] prereading 0 tables
+[Thu Nov  6 20:33:39.825 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:33:39.825 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:33:39.826 2025] [21] accepting connections
+[Thu Nov  6 20:33:46.337 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:33:46.339 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:33:46.343 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:33:46.343 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:33:46.356 2025] [26] prereading 0 tables
+[Thu Nov  6 20:33:46.356 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:33:46.356 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:33:46.356 2025] [21] accepting connections
+[Thu Nov  6 20:33:52.833 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:33:52.836 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:33:52.839 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:33:52.840 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:33:52.850 2025] [26] prereading 0 tables
+[Thu Nov  6 20:33:52.850 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:33:52.850 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:33:52.851 2025] [21] accepting connections
+[Thu Nov  6 20:33:59.273 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:33:59.276 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:33:59.279 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:33:59.279 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:33:59.288 2025] [26] prereading 0 tables
+[Thu Nov  6 20:33:59.288 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:33:59.288 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:33:59.289 2025] [21] accepting connections
+[Thu Nov  6 20:34:05.610 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:05.612 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:05.616 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:05.617 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:05.628 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:05.628 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:05.628 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:05.628 2025] [21] accepting connections
+[Thu Nov  6 20:34:12.197 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:12.200 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:12.204 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:12.204 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:12.217 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:12.217 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:12.217 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:12.217 2025] [21] accepting connections
+[Thu Nov  6 20:34:18.639 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:34:18.642 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:34:18.646 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:18.646 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:18.655 2025] [25] prereading 0 tables
+[Thu Nov  6 20:34:18.655 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:18.655 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:18.655 2025] [20] accepting connections
+[Thu Nov  6 20:34:25.051 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:25.053 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:25.056 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:25.056 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:25.066 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:25.066 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:25.066 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:25.066 2025] [21] accepting connections
+[Thu Nov  6 20:34:31.615 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:31.617 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:31.622 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:31.622 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:31.635 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:31.636 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:31.637 2025] [21] accepting connections
+[Thu Nov  6 20:34:31.636 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:38.092 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:38.094 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:38.098 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:38.098 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:38.107 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:38.107 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:38.107 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:38.107 2025] [21] accepting connections
+[Thu Nov  6 20:34:44.493 2025] [21] watchdog: main process 22 forked ok
+[Thu Nov  6 20:34:44.496 2025] [22] Using local time zone 'UTC'
+[Thu Nov  6 20:34:44.500 2025] [22] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:44.500 2025] [22] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:44.510 2025] [27] prereading 0 tables
+[Thu Nov  6 20:34:44.510 2025] [27] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:44.510 2025] [22] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:44.511 2025] [22] accepting connections
+[Thu Nov  6 20:34:50.932 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:50.934 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:50.938 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:50.938 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:50.949 2025] [27] prereading 0 tables
+[Thu Nov  6 20:34:50.949 2025] [27] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:34:50.949 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:50.949 2025] [21] accepting connections
+[Thu Nov  6 20:34:57.460 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:34:57.465 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:34:57.470 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:34:57.470 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:34:57.481 2025] [26] prereading 0 tables
+[Thu Nov  6 20:34:57.481 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:34:57.481 2025] [21] accepting connections
+[Thu Nov  6 20:34:57.481 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:03.868 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:03.870 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:03.874 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:03.874 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:03.884 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:03.884 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:03.885 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:03.885 2025] [21] accepting connections
+[Thu Nov  6 20:35:10.413 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:10.415 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:10.420 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:10.420 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:10.429 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:10.429 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:10.430 2025] [21] accepting connections
+[Thu Nov  6 20:35:10.429 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:17.089 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:17.091 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:17.097 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:17.098 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:17.110 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:17.110 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:17.110 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:17.110 2025] [21] accepting connections
+[Thu Nov  6 20:35:23.611 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:35:23.613 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:35:23.617 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:23.617 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:23.626 2025] [25] prereading 0 tables
+[Thu Nov  6 20:35:23.626 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:23.626 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:23.627 2025] [20] accepting connections
+[Thu Nov  6 20:35:30.024 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:30.026 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:30.030 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:30.030 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:30.040 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:30.041 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:30.041 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:30.041 2025] [21] accepting connections
+[Thu Nov  6 20:35:36.578 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:36.580 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:36.584 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:36.585 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:36.595 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:36.595 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:36.595 2025] [21] accepting connections
+[Thu Nov  6 20:35:36.595 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:43.048 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:43.051 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:43.054 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:43.054 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:43.064 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:43.064 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:43.064 2025] [21] accepting connections
+[Thu Nov  6 20:35:43.064 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:49.519 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:35:49.521 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:35:49.526 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:49.526 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:49.536 2025] [26] prereading 0 tables
+[Thu Nov  6 20:35:49.536 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:35:49.536 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:49.536 2025] [21] accepting connections
+[Thu Nov  6 20:35:56.060 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:35:56.063 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:35:56.066 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:35:56.067 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:35:56.076 2025] [25] prereading 0 tables
+[Thu Nov  6 20:35:56.076 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:35:56.076 2025] [20] accepting connections
+[Thu Nov  6 20:35:56.076 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:02.630 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:02.632 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:02.636 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:02.636 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:02.645 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:02.645 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:02.645 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:02.645 2025] [21] accepting connections
+[Thu Nov  6 20:36:09.103 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:09.106 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:09.110 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:09.110 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:09.120 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:09.120 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:09.120 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:09.120 2025] [21] accepting connections
+[Thu Nov  6 20:36:15.548 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:15.550 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:15.554 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:15.554 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:15.564 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:15.564 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:15.564 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:15.565 2025] [21] accepting connections
+[Thu Nov  6 20:36:22.060 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:36:22.063 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:36:22.067 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:22.067 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:22.077 2025] [25] prereading 0 tables
+[Thu Nov  6 20:36:22.077 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:22.077 2025] [20] accepting connections
+[Thu Nov  6 20:36:22.077 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:28.478 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:28.480 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:28.484 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:28.484 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:28.492 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:28.493 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:28.493 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:28.493 2025] [21] accepting connections
+[Thu Nov  6 20:36:34.998 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:35.002 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:35.006 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:35.006 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:35.017 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:35.017 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:35.017 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:35.018 2025] [21] accepting connections
+[Thu Nov  6 20:36:41.392 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:41.394 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:41.398 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:41.398 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:41.409 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:41.409 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:41.410 2025] [21] accepting connections
+[Thu Nov  6 20:36:41.409 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:47.886 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:47.888 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:47.892 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:47.892 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:47.901 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:47.902 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:36:47.902 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:47.902 2025] [21] accepting connections
+[Thu Nov  6 20:36:54.349 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:36:54.352 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:36:54.358 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:36:54.358 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:36:54.371 2025] [26] prereading 0 tables
+[Thu Nov  6 20:36:54.371 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:36:54.371 2025] [21] accepting connections
+[Thu Nov  6 20:36:54.371 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:00.859 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:37:00.861 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:37:00.865 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:00.865 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:00.875 2025] [25] prereading 0 tables
+[Thu Nov  6 20:37:00.875 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:00.875 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:00.875 2025] [20] accepting connections
+[Thu Nov  6 20:37:07.305 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:07.307 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:07.311 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:07.311 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:07.322 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:07.322 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:07.322 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:07.322 2025] [21] accepting connections
+[Thu Nov  6 20:37:13.723 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:13.725 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:13.730 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:13.730 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:13.740 2025] [25] prereading 0 tables
+[Thu Nov  6 20:37:13.741 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:13.741 2025] [21] accepting connections
+[Thu Nov  6 20:37:13.741 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:20.126 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:20.128 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:20.132 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:20.132 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:20.142 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:20.142 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:20.142 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:20.143 2025] [21] accepting connections
+[Thu Nov  6 20:37:26.482 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:26.484 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:26.488 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:26.488 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:26.499 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:26.499 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:26.499 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:26.499 2025] [21] accepting connections
+[Thu Nov  6 20:37:33.011 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:37:33.013 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:37:33.017 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:33.017 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:33.027 2025] [25] prereading 0 tables
+[Thu Nov  6 20:37:33.027 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:33.028 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:33.028 2025] [20] accepting connections
+[Thu Nov  6 20:37:39.400 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:39.402 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:39.405 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:39.405 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:39.414 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:39.415 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:39.415 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:39.415 2025] [21] accepting connections
+[Thu Nov  6 20:37:45.898 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:37:45.900 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:37:45.904 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:45.904 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:45.914 2025] [25] prereading 0 tables
+[Thu Nov  6 20:37:45.914 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:45.914 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:45.914 2025] [20] accepting connections
+[Thu Nov  6 20:37:52.417 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:52.419 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:52.423 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:52.423 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:52.435 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:52.435 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:37:52.435 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:52.435 2025] [21] accepting connections
+[Thu Nov  6 20:37:58.889 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:37:58.892 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:37:58.895 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:37:58.895 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:37:58.906 2025] [26] prereading 0 tables
+[Thu Nov  6 20:37:58.906 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:37:58.906 2025] [21] accepting connections
+[Thu Nov  6 20:37:58.906 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:05.325 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:05.328 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:38:05.333 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:05.334 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:05.344 2025] [26] prereading 0 tables
+[Thu Nov  6 20:38:05.344 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:05.344 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:05.344 2025] [21] accepting connections
+[Thu Nov  6 20:38:24.106 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:24.108 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:38:24.113 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:24.113 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:24.123 2025] [26] prereading 0 tables
+[Thu Nov  6 20:38:24.124 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:24.124 2025] [21] accepting connections
+[Thu Nov  6 20:38:24.124 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:18.228 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:38:18.232 2025] [20] Using local time zone 'UTC'
+[Thu Nov  6 20:38:18.236 2025] [20] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:18.236 2025] [20] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:18.247 2025] [26] prereading 0 tables
+[Thu Nov  6 20:38:18.247 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:18.247 2025] [20] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:18.247 2025] [20] accepting connections
+[Thu Nov  6 20:38:24.708 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:24.711 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:38:24.716 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:24.716 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:24.726 2025] [26] prereading 0 tables
+[Thu Nov  6 20:38:24.727 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:24.727 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:24.727 2025] [21] accepting connections
+[Thu Nov  6 20:38:31.189 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:31.191 2025] [21] Using local time zone 'UTC'
+[Thu Nov  6 20:38:31.195 2025] [21] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:31.196 2025] [21] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:31.205 2025] [26] prereading 0 tables
+[Thu Nov  6 20:38:31.205 2025] [26] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:31.205 2025] [21] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:31.206 2025] [21] accepting connections
+[Thu Nov  6 20:38:34.679 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:38:34.684 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:38:34.684 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:38:34.694 2025] [23] prereading 0 tables
+[Thu Nov  6 20:38:34.695 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:38:34.695 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:38:34.695 2025] [1] accepting connections
+[Thu Nov  6 20:38:37.732 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:37.733 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:38:37.734 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:38:44.098 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:44.098 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:38:44.100 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:38:50.204 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:50.205 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:38:50.207 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:38:56.119 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:38:56.120 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:38:56.121 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:02.571 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:02.572 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:02.573 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:08.920 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:08.921 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:08.922 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:15.290 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:15.291 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:15.293 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:21.864 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:21.865 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:21.866 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:28.135 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:28.136 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:28.137 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:34.547 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:34.547 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:34.549 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:40.901 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:40.902 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:40.903 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:47.392 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:39:47.393 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:47.395 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:39:53.671 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:39:53.672 2025] [20] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:39:53.673 2025] [19] watchdog: main process 20 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:00.074 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:00.075 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:00.076 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:06.592 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:06.592 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:06.594 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:13.054 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:13.055 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:13.057 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:19.537 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:19.538 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:19.539 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:25.896 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:25.896 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:25.898 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:32.353 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:32.354 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:32.355 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:38.810 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:38.811 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:38.812 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:45.311 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:45.312 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:45.313 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:51.732 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:51.733 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:51.734 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:40:58.318 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:40:58.318 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:40:58.320 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:04.819 2025] [21] watchdog: main process 22 forked ok
+[Thu Nov  6 20:41:04.820 2025] [22] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:04.821 2025] [21] watchdog: main process 22 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:11.326 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:11.328 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:11.329 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:17.799 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:17.800 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:17.802 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:24.168 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:24.168 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:24.170 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:30.536 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:30.537 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:30.538 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:37.055 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:37.056 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:37.057 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:43.519 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:43.520 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:43.521 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:49.940 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:41:49.941 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:49.942 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:41:56.381 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:41:56.382 2025] [20] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:41:56.383 2025] [19] watchdog: main process 20 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:02.817 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:02.818 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:02.819 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:09.207 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:09.208 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:09.209 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:15.524 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:15.526 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:15.527 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:21.850 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:21.851 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:21.854 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:28.291 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:28.292 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:28.293 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:34.730 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:34.730 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:34.732 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:41.180 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:41.181 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:41.182 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:47.491 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:47.491 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:47.493 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:42:53.893 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:42:53.893 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:42:53.895 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:00.367 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:00.367 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:00.368 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:06.920 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:06.920 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:06.922 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:13.264 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:13.265 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:13.266 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:19.677 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:19.678 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:19.679 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:26.061 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:26.062 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:26.063 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:32.544 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:32.545 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:32.546 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:38.966 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:38.967 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:38.969 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:45.362 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:45.363 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:45.364 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:51.917 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:43:51.919 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:51.922 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:43:58.440 2025] [19] watchdog: main process 20 forked ok
+[Thu Nov  6 20:43:58.441 2025] [20] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:43:58.443 2025] [19] watchdog: main process 20 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:04.897 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:04.898 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:04.899 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:11.373 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:11.373 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:11.375 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:17.830 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:17.831 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:17.832 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:24.253 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:24.254 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:24.255 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:30.659 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:30.660 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:30.661 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:49.491 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:49.492 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:49.493 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:43.561 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:43.561 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:43.563 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:49.968 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:49.969 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:49.970 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:44:56.390 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:44:56.392 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:44:56.393 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:02.889 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:02.890 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:02.892 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:09.346 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:09.347 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:09.349 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:15.795 2025] [21] watchdog: main process 22 forked ok
+[Thu Nov  6 20:45:15.795 2025] [22] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:15.797 2025] [21] watchdog: main process 22 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:22.193 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:22.194 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:22.195 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:28.740 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:28.741 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:28.742 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:35.112 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:35.113 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:35.114 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:41.489 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:41.490 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:41.491 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:48.064 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:48.064 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:48.065 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:45:54.425 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:45:54.425 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:45:54.427 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:00.809 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:00.810 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:00.811 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:07.243 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:07.244 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:07.245 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:13.709 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:13.710 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:13.711 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:20.257 2025] [21] watchdog: main process 22 forked ok
+[Thu Nov  6 20:46:20.258 2025] [22] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:20.260 2025] [21] watchdog: main process 22 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:26.730 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:26.731 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:26.733 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:33.166 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:33.166 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:33.168 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:39.569 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:39.570 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:39.572 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:45.968 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:45.969 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:45.970 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:52.620 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:52.621 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:52.622 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:46:59.103 2025] [20] watchdog: main process 21 forked ok
+[Thu Nov  6 20:46:59.104 2025] [21] FATAL: failed to lock pid file '/var/lib/manticore/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Nov  6 20:46:59.105 2025] [20] watchdog: main process 21 exited cleanly (exit code 1), shutting down
+[Thu Nov  6 20:50:01.053 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:50:01.056 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:50:01.056 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:50:01.064 2025] [23] prereading 0 tables
+[Thu Nov  6 20:50:01.064 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:50:01.064 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:50:01.064 2025] [1] accepting connections
+[Thu Nov  6 20:50:14.613 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:50:14.616 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:50:14.616 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:50:14.625 2025] [23] prereading 0 tables
+[Thu Nov  6 20:50:14.625 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:50:14.625 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:50:14.625 2025] [1] accepting connections
+[Thu Nov  6 20:51:03.241 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:51:03.247 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:51:03.247 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:51:03.259 2025] [25] prereading 0 tables
+[Thu Nov  6 20:51:03.259 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:51:03.259 2025] [1] accepting connections
+[Thu Nov  6 20:51:03.259 2025] [25] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:51:12.091 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:51:12.094 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:51:12.095 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:51:12.103 2025] [22] prereading 0 tables
+[Thu Nov  6 20:51:12.103 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:51:12.103 2025] [22] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:51:12.103 2025] [1] accepting connections
+[Thu Nov  6 20:52:15.184 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:52:15.189 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:52:15.189 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:52:15.198 2025] [23] prereading 0 tables
+[Thu Nov  6 20:52:15.198 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:52:15.198 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:52:15.199 2025] [1] accepting connections
+[Thu Nov  6 20:54:14.162 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 20:54:14.171 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:54:14.171 2025] [1] shutdown complete
+[Thu Nov  6 20:55:00.853 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:55:00.856 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:55:00.856 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:55:00.863 2025] [23] prereading 0 tables
+[Thu Nov  6 20:55:00.863 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:55:00.863 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:55:00.863 2025] [1] accepting connections
+[Thu Nov  6 20:58:45.393 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 20:58:45.407 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:58:45.408 2025] [1] shutdown complete
+[Thu Nov  6 20:59:25.417 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 20:59:25.421 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 20:59:25.421 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 20:59:25.429 2025] [23] prereading 0 tables
+[Thu Nov  6 20:59:25.429 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 20:59:25.429 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 20:59:25.429 2025] [1] accepting connections
+[Thu Nov  6 21:44:28.184 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 21:44:28.199 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 21:44:28.199 2025] [1] shutdown complete
+[Thu Nov  6 22:11:07.670 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 22:11:07.673 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 22:11:07.674 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 22:11:07.681 2025] [23] prereading 0 tables
+[Thu Nov  6 22:11:07.681 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 22:11:07.682 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 22:11:07.682 2025] [1] accepting connections
+[Thu Nov  6 22:11:14.031 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 22:11:14.041 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 22:11:14.041 2025] [1] shutdown complete
+[Thu Nov  6 22:28:35.434 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 22:28:35.440 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 22:28:35.440 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 22:28:35.450 2025] [23] prereading 0 tables
+[Thu Nov  6 22:28:35.450 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 22:28:35.450 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 22:28:35.450 2025] [1] accepting connections
+[Thu Nov  6 23:07:36.921 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 23:07:36.933 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 23:07:36.933 2025] [1] shutdown complete
+[Thu Nov  6 23:37:01.362 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 23:37:01.365 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 23:37:01.365 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 23:37:01.376 2025] [23] prereading 0 tables
+[Thu Nov  6 23:37:01.376 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 23:37:01.376 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 23:37:01.376 2025] [1] accepting connections
+[Thu Nov  6 23:38:35.313 2025] [1] caught SIGTERM, shutting down
+[Thu Nov  6 23:38:35.325 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 23:38:35.325 2025] [1] shutdown complete
+[Thu Nov  6 23:56:45.350 2025] [1] Using local time zone 'UTC'
+[Thu Nov  6 23:56:45.354 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Thu Nov  6 23:56:45.354 2025] [1] listening on all interfaces for mysql, port=9306
+[Thu Nov  6 23:56:45.370 2025] [23] prereading 0 tables
+[Thu Nov  6 23:56:45.371 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Thu Nov  6 23:56:45.371 2025] [23] preread 0 tables in 0.000 sec
+[Thu Nov  6 23:56:45.371 2025] [1] accepting connections
+[Fri Nov  7 00:04:30.678 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 00:04:30.689 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 00:04:30.689 2025] [1] shutdown complete
+[Fri Nov  7 00:58:19.391 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 00:58:19.395 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 00:58:19.395 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 00:58:19.406 2025] [23] prereading 0 tables
+[Fri Nov  7 00:58:19.406 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 00:58:19.406 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 00:58:19.406 2025] [1] accepting connections
+[Fri Nov  7 01:01:31.970 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 01:01:31.980 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:01:31.980 2025] [1] shutdown complete
+[Fri Nov  7 01:03:14.120 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 01:03:14.124 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:03:14.124 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 01:03:14.134 2025] [23] prereading 0 tables
+[Fri Nov  7 01:03:14.134 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 01:03:14.134 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 01:03:14.135 2025] [1] accepting connections
+[Fri Nov  7 01:10:04.070 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 01:10:04.080 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:10:04.080 2025] [1] shutdown complete
+[Fri Nov  7 01:24:48.022 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 01:24:48.027 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:24:48.027 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 01:24:48.036 2025] [23] prereading 0 tables
+[Fri Nov  7 01:24:48.036 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 01:24:48.036 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 01:24:48.036 2025] [1] accepting connections
+[Fri Nov  7 01:41:15.897 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 01:41:15.909 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:41:15.909 2025] [1] shutdown complete
+[Fri Nov  7 01:41:30.683 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 01:41:30.687 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:41:30.687 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 01:41:30.695 2025] [23] prereading 0 tables
+[Fri Nov  7 01:41:30.695 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 01:41:30.695 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 01:41:30.695 2025] [1] accepting connections
+[Fri Nov  7 01:44:55.513 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 01:44:55.517 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:44:55.517 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 01:44:55.527 2025] [23] prereading 0 tables
+[Fri Nov  7 01:44:55.527 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 01:44:55.527 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 01:44:55.528 2025] [1] accepting connections
+[Fri Nov  7 01:46:08.830 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 01:46:08.841 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 01:46:08.841 2025] [1] shutdown complete
+[Fri Nov  7 02:00:40.187 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 02:00:40.192 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 02:00:40.192 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 02:00:40.202 2025] [23] prereading 0 tables
+[Fri Nov  7 02:00:40.202 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 02:00:40.202 2025] [23] preread 0 tables in 0.000 sec
+[Fri Nov  7 02:00:40.202 2025] [1] accepting connections
+[Fri Nov  7 02:09:44.041 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 02:09:44.067 2025] [22] rt: table products: ramchunk saved in 0.015 sec
+[Fri Nov  7 02:09:44.070 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 02:09:44.070 2025] [1] shutdown complete
+[Fri Nov  7 08:33:03.407 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 08:33:03.412 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 08:33:03.412 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 08:33:03.429 2025] [26] prereading 1 tables
+[Fri Nov  7 08:33:03.429 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 08:33:03.430 2025] [1] accepting connections
+[Fri Nov  7 08:33:03.431 2025] [26] preread 1 tables in 0.002 sec
+[Fri Nov  7 08:36:25.174 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 08:36:25.201 2025] [20] rt: table products: ramchunk saved in 0.017 sec
+[Fri Nov  7 08:36:25.204 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 08:36:25.204 2025] [1] shutdown complete
+[Fri Nov  7 08:36:19.831 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 08:36:19.835 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 08:36:19.835 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 08:36:19.851 2025] [26] prereading 1 tables
+[Fri Nov  7 08:36:19.852 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 08:36:19.852 2025] [1] accepting connections
+[Fri Nov  7 08:36:19.853 2025] [26] preread 1 tables in 0.002 sec
+[Fri Nov  7 09:04:53.131 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 09:04:53.158 2025] [24] rt: table products: ramchunk saved in 0.015 sec
+[Fri Nov  7 09:04:53.161 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 09:04:53.161 2025] [1] shutdown complete
+[Fri Nov  7 09:28:59.130 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 09:28:59.133 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 09:28:59.134 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 09:28:59.147 2025] [26] prereading 1 tables
+[Fri Nov  7 09:28:59.148 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 09:28:59.148 2025] [1] accepting connections
+[Fri Nov  7 09:28:59.150 2025] [26] preread 1 tables in 0.002 sec
+[Fri Nov  7 09:34:57.318 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 09:34:57.348 2025] [19] rt: table products: ramchunk saved in 0.021 sec
+[Fri Nov  7 09:34:57.351 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 09:34:57.351 2025] [1] shutdown complete
+[Fri Nov  7 09:35:06.020 2025] [1] Using local time zone 'UTC'
+[Fri Nov  7 09:35:06.023 2025] [1] starting daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 09:35:06.023 2025] [1] listening on all interfaces for mysql, port=9306
+[Fri Nov  7 09:35:06.040 2025] [26] prereading 1 tables
+[Fri Nov  7 09:35:06.040 2025] [1] WARNING: [BUDDY] no SPHINX or HTTP listeners found, disabled
+[Fri Nov  7 09:35:06.040 2025] [1] accepting connections
+[Fri Nov  7 09:35:06.042 2025] [26] preread 1 tables in 0.002 sec
+[Fri Nov  7 11:06:59.945 2025] [1] caught SIGTERM, shutting down
+[Fri Nov  7 11:06:59.972 2025] [19] rt: table products: ramchunk saved in 0.019 sec
+[Fri Nov  7 11:06:59.976 2025] [1] shutdown daemon version '13.13.0 e5465fe44@25100704 (columnar 8.1.0 e1522a2@25100213) (secondary 8.1.0 e1522a2@25100213) (knn 8.1.0 e1522a2@25100213) (embeddings 1.0.1)' ...
+[Fri Nov  7 11:06:59.976 2025] [1] shutdown complete

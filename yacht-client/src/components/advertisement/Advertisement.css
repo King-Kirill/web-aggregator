@@ -1,0 +1,337 @@
+.advertisement-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background: #0f2233;
+  border-radius: 10px;
+}
+
+.advertisement-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertisement-item{
+  width: 90% !important;
+  height: 90% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  justify-self: center !important;
+}
+
+.advertisement-item img{
+  width: 50%;
+}
+
+.advertisement-item-content{
+  width: 50%;
+  height: auto;
+}
+
+.advertisement-slider .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.advertisement-slider .swiper-pagination-bullet {
+  background: none !important;
+  opacity: 1 !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+.advertisement-slider .custom-pagination {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+}
+
+.advertisement-slider .custom-pagination .line {
+  height: 3px;
+  width: 20px;
+  background: #ccc;
+  border-radius: 2px;
+  transition: width 0.5s, background 0.5s;
+}
+
+.advertisement-slider .custom-pagination .number {
+  font-family: GraphikLCG-thin;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 6px;
+  transition: color 0.5s;
+}
+
+.advertisement-slider .swiper-pagination-bullet-active .number {
+  color: #fff;
+}
+
+.advertisement-slider .swiper-pagination-bullet-active .line {
+  width: 50px;
+  background: #fff;
+}
+
+.advertisement-slider .custom-pagination:hover .line {
+  width: 50px;
+  background: #fff;
+}
+
+.my-edit-custom-btn {
+  position: relative; /* или absolute, если нужно */
+  z-index: 100;       /* чтобы перекрыть все */
+  pointer-events: auto; 
+}
+
+.ad-container{
+  margin-top: 100px;
+  justify-self: center;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  border-radius: 10px;
+}
+
+.ad-container-content{
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-container-content img{
+  width: 50%;
+  height: auto;
+}
+
+.quillRedactor-ad{
+  width: 50%;
+}
+
+.advertisement-item img,
+.advertisement-item-content {
+  will-change: transform, opacity;
+}
+
+.advertisement-item{
+  align-self: center;
+  justify-self: center;
+}
+
+.advertisement-container{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.advertisement-container.admin{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertisement-button-wrapper{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.advertisement-button-wrapper>button{
+  background:  transparent;
+  border: 2px solid var(--gray-color);
+  width: 150px;
+  height: 40px;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bolder;
+  transition: border 0.3s;
+  margin-bottom: 30px;
+  align-self: center;
+  justify-self: center;
+  transition: border 0.3s;
+}
+
+.advertisement-button-wrapper>button:hover{
+  border: 2px solid #FFFFFF;
+}
+
+.advertisement-container-on-delete{
+  position: absolute;
+  top: 8px;
+  left: -50px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+  transition: left 0.3s;
+}
+
+.advertisement-container.admin:hover .advertisement-container-on-delete{
+  left: 10px;
+}
+
+.advertisement-container-on-delete>svg{
+  stroke: red;
+  fill: red;
+  height: 50px;
+  width: 40px;
+}
+
+.advertisement-container-on-change{
+  position: absolute;
+  top: 15px;
+  right: -50px;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.advertisement-container.admin:hover .advertisement-container-on-change{
+  right: 20px;
+}
+
+.advertisement-container-on-change>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.advertisement-container-on-change>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.advertisement-add-btn{
+  background: transparent;
+  position: absolute;
+  bottom: 10px;
+  z-index: 10000;
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  transition: right 0.3s;
+}
+
+.advertisement-add-btn>svg{
+  width: 40px;
+  height: 40px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.advertisement-container.admin:hover .advertisement-add-btn{
+  right: 20px;
+}
+
+.advertisement-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  bottom: 10px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.swiper {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.advertisement-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.advertisement-container.admin:hover .advertisement-container-on-delete-from-page{
+  left: 20px;
+}
+
+@media(max-width: 699px){
+.advertisement-container{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: auto;
+}
+
+.advertisement-slider {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.advertisement-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.advertisement-item {
+  display: flex !important;
+  flex-direction: column !important; /* элементы в колонку */
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 20px !important; /* расстояние между изображением и текстом */
+  width: 100% !important;
+  padding: 20px !important;
+  max-height: 90%;
+  box-sizing: border-box !important;
+}
+
+.advertisement-item>img {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  width: 90% !important; /* изображение подстраивается под ширину контейнера */
+  height: auto !important;
+}
+
+.advertisement-item-content {
+  width: 100% !important;
+  height: auto;
+  text-align: center !important; /* текст по центру */
+}
+
+.ql-container{
+  min-height: 30px !important;
+}
+}

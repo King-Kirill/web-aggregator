@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "find-chrome-bin": "^2.0.4",
+    "promise-fs": "^2.1.1",
+    "puppeteer": "^24.32.0"
+  }
+}

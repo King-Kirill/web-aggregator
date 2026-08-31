@@ -1,0 +1,47 @@
+.ql-container{
+    width: 100% !important;
+}
+
+.ql-editor{
+    width: 100% !important;
+}
+
+.ql-container.ql-snow{
+  margin-bottom: 0px !important;
+}
+
+.ql-editor .my-edit-custom-btn{
+  background:  transparent;
+  border: 2px solid #3c3c3c;
+  width: 150px;
+  height: 40px;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bolder;
+  transition: border 0.3s;
+}
+
+.ql-editor .my-edit-custom-btn:hover {
+  border: 2px solid #808080;
+}
+
+.ql-editor .my-edit-custom-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+}
+
+.ql-better-table-wrapper table {
+  border-collapse: collapse;
+}
+.ql-better-table-wrapper td,
+.ql-better-table-wrapper th {
+  border: 1px solid #aaa;
+}

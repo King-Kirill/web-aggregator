@@ -1,0 +1,244 @@
+.yandex-reviews-container{
+  width: 100%;
+  justify-self: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.yandex-reviews-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  top: 0px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.yandex-reviews-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.yandex-reviews-container:hover .yandex-reviews-container-on-delete-from-page{
+  left: 20px;
+}
+
+.reviews-container-title{
+  margin-top: 0px;
+  font-family: GraphikLCG-thin;
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.yandex-reviews-slider .swiper-pagination {
+  position: relative;
+  text-align: center;
+}
+
+.yandex-reviews-slider .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF;
+  opacity: 0.8;
+}
+
+.yandex-reviews-slider .swiper-pagination-bullet-active {
+  background: #e47431;
+  opacity: 1;
+}
+
+.yandex-reviews-slider{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.yandex-reviews-slider-inner-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.yandex-reviews-slide{
+  min-height: 350px;
+}
+
+.yandex-reviews-review-item{
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.yandex-reviews-review-item-header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fc401d;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.yandex-reviews-review-item-header-tab{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.yandex-reviews-review-item-header-tab-inner{
+  width: auto;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.yandex-reviews-review-item-header-tab img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.yandex-reviews-review-item-header-tab>svg{
+  height: 40px;       /* задаём высоту */
+  width: auto;        /* можно заменить на width: 100% для точного контроля */
+  display: block; 
+}
+
+.yandex-reviews-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.yandex-reviews-star-rating{
+  width: auto;
+  height: auto;
+}
+
+.yandex-reviews-star-full {
+  font-style: normal;
+  color: #f5ad59;          /* цвет заполненной звезды */
+  font-size: 15px;      /* размер звезды */
+  margin-right: 2px;    /* отступ между звездами */
+  display: inline-block; /* чтобы margin работал корректно */
+}
+
+.yandex-reviews-content span{
+  font-family: GraphikLCG-thin;
+  font-weight: bolder;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.yandex-reviews-review-text{
+  width: 90%;
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.yandex-reviews-review-item{
+  background: black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.yandex-reviews-review-text p{
+  margin-top: 10px;
+}
+
+.yandex-reviews-on-delete-btn{
+  position: absolute;
+  bottom: 10px;
+  left: -50px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+  transition: left 0.3s;
+}
+
+.yandex-reviews-on-delete-btn>svg{
+  stroke: red;
+  fill: red;
+  height: 50px;
+  width: 40px;
+}
+
+.yandex-reviews-review-item:hover .yandex-reviews-on-delete-btn{
+  left: 10px;
+}
+
+.yandex-reviews-on-update-btn{
+  position: absolute;
+  bottom: 10px;
+  right: -50px;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.yandex-reviews-on-update-btn>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.yandex-reviews-on-update-btn>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.yandex-reviews-review-item:hover .yandex-reviews-on-update-btn{
+  right: 10px;
+}
+
+.yandex-reviews-add-btn{
+  min-height: 350px;
+  min-width: 380px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #000000;
+  border-radius: 15px;
+}
+
+.yandex-reviews-add-btn>svg{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  stroke: #000000;
+  fill: #000000;
+}

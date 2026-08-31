@@ -1,0 +1,239 @@
+.menu-container-3{
+  width: 100%;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-container-item-cover{
+    width: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.menu-container-2{
+  width: 100%;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-container-1{
+  width: 100%;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-container-item{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.menu-container-item-content>p{
+    text-align: center;
+}
+
+.menu-container-item:hover{
+    transform: scale(1.03);
+}
+
+.menu-container-item-content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container-item-content-btn-wrapper{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-container-item-content-btn-wrapper>button{
+  background:  transparent;
+  border: 2px solid var(--gray-color);
+  width: 150px;
+  height: 40px;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bolder;
+  transition: border 0.3s;
+  margin-bottom: 30px;
+  align-self: center;
+  justify-self: center;
+  transition: border 0.3s;
+}
+
+.menu-container-item-content-btn-wrapper>button:hover{
+  border: 2px solid #FFFFFF;
+}
+
+.menu-container-item-content>p{
+  font-family: GraphikLCG-thin;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.menu-container-on-change{
+    position: absolute;
+    bottom: 10px;
+    right: -50px;
+    background: transparent;
+    width: 36px;
+    height: 36px;
+    z-index: 98;
+    transition: right 0.3s;
+}
+
+.menu-container-on-change>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.menu-container-on-change>svg path{
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.menu-container-on-delete{
+  position: absolute;
+  bottom: 5px;
+  left: -50px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 98;
+  transition: left 0.3s;
+}
+
+.menu-container-on-delete>svg{
+  stroke: red;
+  fill: red;
+  height: 50px;
+  width: 40px;
+}
+
+.menu-container-item:hover .menu-container-on-delete{
+    left: 5px;
+}
+
+.menu-container-item:hover .menu-container-on-change{
+    right: 18px;
+}
+
+.menu-container-item-btn{
+    background: transparent;
+    padding: 20px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    border: 2px dashed #FFFFFF;
+}
+
+.menu-container-item-btn>svg path{
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+
+.menu-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  top: 10px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.menu-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.menu-container-3:hover .menu-container-on-delete-from-page{
+  left: 20px;
+}
+
+.menu-container-2:hover .menu-container-on-delete-from-page{
+  left: 20px;
+}
+
+.menu-container-1:hover .menu-container-on-delete-from-page{
+  left: 20px;
+}
+
+.menu-container-item-content-name{
+  font-size: 30px;
+  font-family: GraphikLCG-thin;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.menu-container-swiper{
+  display: none;
+}
+
+@media(max-width: 750px){
+  .menu-container-swiper{
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .menu-container-1{
+    display: none;
+  }
+}
+
+@media(max-width: 420px)
+{
+  .menu-container-swiper{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+  
+  .menu-container-item {
+    min-height: auto !important;
+    aspect-ratio: 1/1 !important;
+  }
+}

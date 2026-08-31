@@ -1,0 +1,196 @@
+.PopularTasks-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.PopularTasks-container-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+}
+
+.PopularTasks-container-item-title{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PopularTasks-container-item-title>span{
+  font-family: GraphikLCG-thin;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase; 
+  text-align: left;
+}
+
+.PopularTasks-container-item-title>svg{
+    width: 20px;
+    height: 20px;
+    fill: #000000;
+}
+
+.PopularTasks-container-main {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  border-bottom: 1px solid #000000;
+  transition: max-height 0.5s ease;
+}
+
+.PopularTasks-container-main p{
+  font-family: GraphikLCG-thin;
+  font-weight: bolder;
+  color: #000000;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.PopularTasks-container-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.PopularTasks-container-title-left-line{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #000000;
+}
+
+.PopularTasks-container-title-right-line{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #000000;
+}
+
+.PopularTasks-container-title>span{
+    font-family: GraphikLCG-thin;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    min-width: 350px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+.popularTask-add-btn{
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+}
+
+.popularTask-add-btn>svg{
+  width: 30px;
+  height: 30px;
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
+.popularTask-container-on-delete-from-page{
+  position: absolute;
+  z-index: 10000;
+  top: 0px;
+  left: -50px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.popularTask-container-on-delete-from-page>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.PopularTasks-container:hover .popularTask-container-on-delete-from-page{
+  left: 20px;
+}
+
+.PopularTasks-on-change{
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  z-index: 10000;
+  transition: right 0.3s;
+}
+
+.PopularTasks-container-item:hover .PopularTasks-on-change{
+  right: 25px;
+}
+
+.PopularTasks-on-change>svg{
+  height: 36px;
+  width: 36px;
+  stroke: #000000;
+  fill: #000000;
+}
+
+.PopularTasks-on-change>svg path{
+  stroke: #000000;
+  fill: #000000;
+}
+
+.PopularTasks-on-delete{
+  position: absolute;
+  z-index: 10000;
+  top: 50%;
+  left: -50px;
+  background: transparent;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  transition: left 0.3s;
+}
+
+.PopularTasks-on-delete>svg{
+  width: 40px;
+  height: 40px;
+  fill: red;
+  stroke: #FFFFFF;
+}
+
+.PopularTasks-container-item:hover .PopularTasks-on-delete{
+  left: 20px;
+}
+
+@media(max-width: 450px){
+  .PopularTasks-container-title>span{
+    font-family: GraphikLCG-thin;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    min-width: 200px;
+    margin: 0 10px 0 10px;
+}
+.PopularTasks-container-item-title>span{
+  font-size: 14px;
+}
+}

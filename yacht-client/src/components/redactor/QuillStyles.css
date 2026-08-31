@@ -1,0 +1,191 @@
+.product-redactor-container{
+    display: block;
+    padding: 0;
+}
+
+.redactor-btn-wrapper{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.redactor-btn-wrapper>button{
+  background:  transparent;
+  border: 2px solid var(--gray-color);
+  width: 150px;
+  height: 40px;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bolder;
+  transition: border 0.3s;
+  margin-bottom: 30px;
+  align-self: center;
+  justify-self: center;
+  transition: border 0.3s;
+}
+
+.redactor-btn-wrapper>button:hover{
+  border: 2px solid #000000;
+}
+
+.my-edit-custom-btn{
+  background:  transparent;
+  border: 2px solid #3c3c3c;
+  width: 150px;
+  height: 40px;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bolder;
+  transition: border 0.3s;
+}
+
+.my-edit-custom-btn:hover {
+  border: 2px solid #808080;
+}
+
+.product-redactor-container button:hover{
+  border: 2px solid #808080;
+}
+
+/* стиль для кнопки внутри редактора */
+.ql-editor .quill-custom-button {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #3c3c3c;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-family: GraphikLCG-thin;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: border 0.3s;
+  margin: 5px 0;
+}
+
+.ql-editor .quill-custom-button:hover {
+  border: 2px solid #808080;
+}
+
+.my-edit-custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;      /* цвет текста ссылки */
+    text-decoration: none; /* убираем стандартное подчеркивание */
+    cursor: pointer;       /* курсор при наведении */
+    font-weight: bold;     /* жирный текст */
+}
+
+.ql-editor .my-edit-custom-btn {
+    color: #000000 !important;      /* принудительно белый цвет */
+    text-decoration: none !important; /* убираем подчеркивание */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.quill-redactor-container{
+  max-width: 100%;
+  border: 1px solid #000000;
+}
+
+.ql-editor iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+@font-face {
+  font-family: 'GraphikLCG-thin';
+  src: url('/font/GraphikLCG-Light.woff2') format('woff2'),
+       url('/font/GraphikLCG-Light.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ql-editor {
+  font-family: 'GraphikLCG-thin', sans-serif;
+  padding: 10px !important;
+  padding-bottom: 0px !important;
+  font-weight: bold;
+}
+
+.ql-font-GraphikLCG-thin {
+  font-family: 'GraphikLCG-thin', sans-serif;
+  font-weight: bold;
+}
+
+.ql-snow .ql-toolbar button svg {
+  stroke: #000000 !important;  /* цвет линий иконки */
+  fill: #000000 !important;    /* если иконка заливка */
+}
+
+.ql-toolbar .ql-formats button svg {
+  stroke: #000000 !important;
+}
+
+.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+  stroke: #000000 !important;
+}
+
+/* Специальные классы Quill для иконок */
+.ql-toolbar .ql-stroke {
+  stroke: #000000 !important;
+}
+
+/* Selector для активных иконок */
+.ql-toolbar button.ql-active svg,
+.ql-toolbar button:hover svg {
+  stroke: #000000 !important;
+}
+
+.ql-toolbar .ql-picker.ql-font .ql-picker-label {
+    background: transparent; /* или темный фон, если нужно */
+    color: #000000 !important; /* текст белый */
+}
+
+.ql-toolbar .ql-picker.ql-size .ql-picker-label {
+    background: transparent; /* или свой цвет кнопки */
+    color: #000000 !important; /* текст белый */
+}
+
+.ql-toolbar .ql-picker.ql-header .ql-picker-label {
+    background: transparent;        /* или свой фон кнопки */
+    color: #000000 !important;      /* текст выбранного варианта белый */
+}
+
+.ql-toolbar .ql-picker-options {
+  background: #FFFFFF !important;
+  border: 1px solid #FFFFFF !important;
+}
+
+.ql-editor {
+  font-size: 15px !important;
+}
+
+/* SMALL */
+.ql-editor>.ql-size-small {
+  font-size: 10px !important;
+}
+
+/* LARGE */
+.ql-editor>.ql-size-large {
+  font-size: 20px !important;
+}
+
+/* HUGE */
+.ql-editor>.ql-size-huge {
+  font-size: 30px !important;
+}

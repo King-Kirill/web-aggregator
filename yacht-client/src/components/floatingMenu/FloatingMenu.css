@@ -1,0 +1,140 @@
+.fab-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 9999;
+}
+
+/* Главная кнопка */
+.fab-main {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #0679f7;
+  color: white;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Контейнер (колонка вверх) */
+.fab-actions {
+  position: absolute;
+  bottom: 80px;
+  right: 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  pointer-events: none;
+}
+
+/* Один элемент (кнопка + текст) */
+.fab-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+
+  transition: all 0.3s ease;
+}
+
+/* Анимация появления вверх */
+.fab-actions.open .fab-item {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* задержка (каскад вверх) */
+.fab-actions.open .fab-item:nth-child(1) {
+  transition-delay: 0.05s;
+}
+.fab-actions.open .fab-item:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+/* при закрытии наоборот */
+.fab-actions:not(.open) .fab-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.fab-actions:not(.open) .fab-item:nth-child(2) {
+  transition-delay: 0.05s;
+}
+
+/* Кнопки */
+.fab-action {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.fab-action:hover{
+    transform: scale(1.1);
+}
+
+.phone {
+  background: #28a745;
+}
+
+.max {
+  background: #007bff;
+}
+
+/* Чёрные подписи */
+.fab-label {
+  background: black;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  white-space: nowrap;
+  font-family: GraphikLCG-thin;
+  font-weight: bolder;
+
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease;
+}
+
+/* Появление текста */
+.fab-actions.open .fab-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fab-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.fab-main>img{
+    width: 30px;
+    height: 30px;
+}
+
+.fab-action.phone>img{
+    width: 35px;
+    height: 35px;
+}
+
+.fab-action.max>img{
+    width: 35px;
+    height: 35px;
+}

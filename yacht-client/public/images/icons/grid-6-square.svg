@@ -1,0 +1,35 @@
+<svg width="1000px" height="700px" viewBox="0 0 21 13.8" xmlns="http://www.w3.org/2000/svg">
+	<g fill="#000000">
+		<!-- первая строка -->
+		<rect x="0" y="0" width="3" height="3"/>
+		<rect x="3.6" y="0" width="3" height="3"/>
+		<rect x="7.2" y="0" width="3" height="3"/>
+		<rect x="10.8" y="0" width="3" height="3"/>
+		<rect x="14.4" y="0" width="3" height="3"/>
+		<rect x="18.0" y="0" width="3" height="3"/>
+
+		<!-- вторая строка -->
+		<rect x="0" y="3.6" width="3" height="3"/>
+		<rect x="3.6" y="3.6" width="3" height="3"/>
+		<rect x="7.2" y="3.6" width="3" height="3"/>
+		<rect x="10.8" y="3.6" width="3" height="3"/>
+		<rect x="14.4" y="3.6" width="3" height="3"/>
+		<rect x="18.0" y="3.6" width="3" height="3"/>
+
+		<!-- третья строка -->
+		<rect x="0" y="7.2" width="3" height="3"/>
+		<rect x="3.6" y="7.2" width="3" height="3"/>
+		<rect x="7.2" y="7.2" width="3" height="3"/>
+		<rect x="10.8" y="7.2" width="3" height="3"/>
+		<rect x="14.4" y="7.2" width="3" height="3"/>
+		<rect x="18.0" y="7.2" width="3" height="3"/>
+
+		<!-- четвёртая строка -->
+		<rect x="0" y="10.8" width="3" height="3"/>
+		<rect x="3.6" y="10.8" width="3" height="3"/>
+		<rect x="7.2" y="10.8" width="3" height="3"/>
+		<rect x="10.8" y="10.8" width="3" height="3"/>
+		<rect x="14.4" y="10.8" width="3" height="3"/>
+		<rect x="18.0" y="10.8" width="3" height="3"/>
+	</g>
+</svg>

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="language" content="ru">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=105576149', 'ym');
+
+        ym(105576149, 'init', {clickmap:true, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Google.Metrika counter -->
+    <meta name="google-site-verification" content="mAnM2nILsbKgweG07RbFwltzbjhlb2CUSa3RG8J9IKQ" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-28SCDER9F6"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=79eb2226-92cf-46e1-8068-148ed88f46de&lang=ru_RU"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-28SCDER9F6');
+    </script>
+    <!-- /Google.Metrika counter -->
+
+    <link rel="preload" href="/font/GraphikLCG-Thin.woff2" as="font" type="font/woff2" crossorigin>
+    <style>
+      /*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/*--------------------*/
+
+.bigred {
+    font-size: 20px;
+    color: red;
+}
+
+/**
+  Упрощаем работу с изображениями и видео
+ */
+img,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+  Наследуем свойства шрифт для полей ввода
+ */
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+html {
+    /**
+    Пригодится в большинстве ситуаций
+    (когда, например, нужно будет "прижать" футер к низу сайта)
+   */
+    height: 100%;
+    /**
+    Убираем скачок интерфейса по горизонтали
+    при появлении / исчезновении скроллбара
+   */
+    scrollbar-gutter: stable;
+}
+
+/**
+  Плавный скролл
+ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /**
+    Пригодится в большинстве ситуаций
+    (когда, например, нужно будет "прижать" футер к низу сайта)
+   */
+    min-height: 100%;
+    /**
+    Унифицированный интерлиньяж
+   */
+    line-height: 1.5;
+    overflow-x: hidden;
+    background: var(--semi-dark-color-2);
+    padding: 0px !important;
+}
+
+/**
+  Нормализация высоты элемента ссылки при его инспектировании в DevTools
+ */
+a:where([class]) {
+    display: inline-flex;
+}
+
+/**
+  Курсор-рука при наведении на элемент
+ */
+button,
+label {
+    cursor: pointer;
+}
+
+/**
+  Приводим к единому цвету svg-элементы
+  (за исключением тех, у которых уже указан
+  атрибут fill со значением 'none' или начинается с 'url')
+ */
+:where([fill]:not( [fill="none"], [fill^="url"] )) {
+    fill: currentColor;
+}
+
+/**
+  Приводим к единому цвету svg-элементы
+  (за исключением тех, у которых уже указан
+  атрибут stroke со значением 'none')
+ */
+:where([stroke]:not( [stroke="none"], [stroke^="url"] )) {
+    stroke: currentColor;
+}
+
+/**
+  Чиним баг задержки смены цвета при взаимодействии с svg-элементами
+ */
+svg * {
+    transition-property: fill, stroke;
+}
+
+/**
+  Приведение рамок таблиц в классический 'collapse' вид
+ */
+:where(table) {
+    border-collapse: collapse;
+    border-color: currentColor;
+}
+
+:root {
+  --dark-color: #000000;
+  --semi-dark-color: #000000;
+  --semi-dark-color-2: #000000;
+  --semi-dark-color-3: #000000;
+  --black-color: #000000;
+  --semi-black: #000000;
+  --gold-color: #000000;
+  --gold-color-bright: #000000;
+  --light-border-color: #000000;
+  --border-color: #000000;
+  --hover-btn: #000000;
+  --underline: #000000;
+  --gray-color: #000000;
+  --gray-text: #000000;
+  --failed-to-find: #000000;
+  --request-bckg: url('');
+  --main-bckg-img: url("");
+}
+
+/**
+  Удаляем все анимации и переходы для людей,
+  которые предпочитают их не использовать
+ */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+@font-face {
+  font-family: 'GraphikLCG-thin';
+  src: url('/font/GraphikLCG-Light.woff2') format('woff2'),
+       url('/font/GraphikLCG-Light.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+.suspense-loading{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.regularPage-on-delete-btn{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  transition: left 0.3s;
+}
+
+.regularPage-on-delete-btn>svg{
+  stroke: red;
+  fill: red;
+  height: 50px;
+  width: 40px;
+}
+    </style>
+    <link rel="icon" type="image/png" href="/images/icon.png" />
+    <link rel="preload" href="https://fonts.cdnfonts.com/css/inconsolata-2" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <noscript><div><img src="https://mc.yandex.ru/watch/105576149" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
